@@ -182,7 +182,7 @@ def loopParse(driver):
 
 def main():
     #Access chrome webdriver
-    dirname = os.path.dirname('C:/Users/green/Desktop/py/hoohack/')
+    dirname = os.path.dirname('directory name')
     path = os.path.join(dirname, 'chromedriver.exe')
     driver = webdriver.Chrome(path)
 
